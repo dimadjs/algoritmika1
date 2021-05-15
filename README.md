@@ -1,1 +1,1 @@
-# algoritmika1
+# algoritmica1
