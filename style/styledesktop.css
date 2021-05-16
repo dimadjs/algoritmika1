@@ -59,7 +59,6 @@ h2 {
 
 .program {
     display: flex;
-    
     flex-wrap: wrap;
     font-family: 'Roboto', sans-serif;
     width: 100%;

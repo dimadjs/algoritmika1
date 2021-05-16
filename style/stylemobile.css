@@ -1,0 +1,79 @@
+@media (max-width: 834px) {
+    main {
+        width: 100%;
+    }
+    h2 {
+        margin-left: 8.40%;
+        font-size: 32px;
+    }
+    .optionslearning {
+        margin-left: 8.47%;
+        margin-top: 6.18%;
+        display: flex;
+        margin-right: 23.88%;
+        margin-bottom: 7.19%;
+    }
+    .nameoption {
+        font-weight: 700;
+        font-size: 15px;
+        color: #1E4681;
+    }
+    .descriptionoption {
+        font-weight: 400;
+        font-size: 11px;
+    }
+    .boxoptions-one {
+        margin-right: 46px;
+    }
+    .boxoptions-one .descriptionoption {
+        width: 153px;
+    }
+    .boxoptions-two {
+        margin-right: 50.87px;
+    }
+    .boxoptions-two .descriptionoption {
+        width: 172px;
+    }
+    .boxoptions-three .descriptionoption {
+        width: 141.9px;
+    }
+    .list {
+        padding-inline-start: 0px;
+        margin-left: 79.92px;
+        margin-bottom: 143.63px;
+    }
+    .list li {
+        font-size: 14px;
+        width: 383.41px;
+    }
+    .boxprogram {
+        width: 231.09px;
+        height: 189.97px;
+        border: 0px;
+        border-radius: 17.38px;
+        filter: drop-shadow(0.58px 0.58px 8.69px rgba(0, 0, 0, 0.25));
+        margin: 23.75px 21.43px;
+        background-color: white;
+    }
+    .nameprogram {
+        font-size: 17px;
+        margin: 6.37px 8.11px 18.53px 11.58px;
+    }
+    .descriptionprogram {
+        font-size: 14px;
+        margin: 18.53px 8.69px 13.32px 11px;
+    }
+    .program>:last-child>.nameprogram {
+        margin: 9.27px 8.11px 0.58px 11.58px;
+    }
+    .program>:last-child>.descriptionprogram {
+        margin: 0.58px 8.69px 13.32px 11px;
+    }
+    .program img {
+        width: 231.09px;
+    }
+    .program {
+        width: 834px;
+    }
+}
+
