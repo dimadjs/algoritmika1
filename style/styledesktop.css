@@ -76,7 +76,7 @@ h1 {
     font-family: Roboto;
     font-size: 20px;
     padding:0px 0px 20px 0px;
-    margin: -20px 0px 0px 270px;
+    margin: -20px 0px 183px 270px;
 }
 
 /** Текст H2 **/
@@ -86,7 +86,7 @@ h2 {
     font-weight: bold;
     font-size: 55px;
     line-height: 101.38%;
-    margin: 173px 0px 0px 36px;
+    margin: 0px 0px 0px 36px;
 }
 #paragraph1 {
     font-size: 24px;
@@ -126,6 +126,7 @@ h2 {
     margin: auto;
     display: flex;
     padding: 94px 0px 0px 80px;
+    margin-bottom: 153px;
 }
 .bottomColumn div {
     width: 13%;
@@ -162,5 +163,117 @@ h2 {
     line-height: 130%;
 }
 
+/** !!!!!!!!!!!!!Версия Никиты!!!!!!!!**/
+
+.container2 {
+    max-width: 1270px;
+    margin: auto;
+}
+
+/** Формат занятий */
+
+.optionslearning {
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    margin: 81px 0px 0px 39px;
+   }
+
+.nameoption {
+    font-weight: 700;
+    font-size: 25px;
+    color: #1E4681;
+    margin-bottom: 0px;
+}
+.descriptionoption {
+    font-weight: 400;
+    font-size: 18px;
+    margin-bottom: 187px;
+}
+.boxoptions-one {
+    margin-right: 122px;
+}
+.boxoptions-one .descriptionoption {
+    width: 223px;
+}
+.boxoptions-two {
+    margin-right: 113px;
+}
+.boxoptions-two .descriptionoption {
+    width: 271px;
+}
+.boxoptions-three .descriptionoption {
+    width: 271px;
+}
+
+/** Что узнаем */
+
+.list {
+    margin: 65px 0px 248px 36px;
+}
+.list li {
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+    width: 662px;
+    line-height: 150%;
+
+}
+
+/** Программа Курса */
+
+.program {
+    display: flex;
+    flex-wrap: wrap;
+    font-family: 'Roboto', sans-serif;
+    width: 100%;
+    height: 100%px;
+    margin-top: 95px;
+}
+.program :nth-child(1) {
+    margin-right: 2.89%;
+}
+.program :nth-child(2) {
+    margin-right: 2.89%;
+}
+.program :nth-child(4) {
+    margin-right: 2.89%;
+}
+.program :nth-child(5) {
+    margin-right: 2.89%;
+}
+.program :nth-child(7) {
+    margin-right: 2.89%;
+}
+.boxprogram img {
+    width: 100%;
+    height: 160px;
+}
+.boxprogram {
+    width: 31.171%;
+    height: 25,625px;
+    margin-bottom: 41px;
+    border: 0px;
+    border-radius: 30px;
+    filter: drop-shadow(1px 1px 15px rgba(0, 0, 0, 0.25));
+    background-color: white;
+    box-sizing: border-box;
+}
+.nameprogram {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+    margin: 11px 14px 32px 20px;
+}
+.descriptionprogram {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 25px;
+    margin: 32px 15px 23px 19px;
+}
+.program>:last-child>.nameprogram {
+    margin: 16px 14px 1px 20px;
+}
+.program>:last-child>.descriptionprogram {
+    margin: 1px 15px 23px 19px;
+}
 
 
