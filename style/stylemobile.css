@@ -1,0 +1,439 @@
+/** Таблетная версия **/
+
+@media (max-width: 1269px) {
+    body {
+    font-size: 12px;
+    }
+    .container {
+        max-width: 737px;
+    }
+
+/** Топ меню **/
+
+    #logo {
+        max-width: 64.87px;
+        width: 100%;
+        height: auto;
+        margin: 22px 0px 0px 21.43px;
+    }
+    .shortinfo {
+        margin: 47.92px 0px 0px 21.43px;
+    }
+    .shortinfo img {
+        width: 12.74px;
+        height: 12.16px;
+        padding: 0px 8px 7px 0px;
+    }
+
+/** Главный текст **/
+
+    h1 {
+        font-size: 46px;
+        font-weight: bold;
+        margin: 7.32px 0px 0px 21.43px;
+    }
+    #textUnderH1 {
+        margin: 20px 0px 0px 21.43px;
+    }
+
+/** Cиняя рамка **/
+
+    .blueText {
+        font-size: 14px;
+        margin: 102.92px 0px 100px 188.45px;
+        width: 58.0%;
+    }
+    .blueText p {
+        padding: 11.15px 15.65px 0px 15.08px;
+    }
+    #author {
+        font-size: 12px;
+        padding: 0px 0px 10px 0px;
+        margin: -5px 0px 0px 140px;
+    }
+
+/** Текст H2 **/
+
+    h2 {
+        font-size: 32px;
+        margin: 0px 0px 0px 36px;
+        }
+    #paragraph1 {
+        font-size: 14px;
+        line-height: 150%;
+        margin: 28px 0px 0px 36px;
+        }
+    #paragraph2 {
+        font-size: 14px;
+        line-height: 150%;
+    }
+
+/** Боковые картинки **/
+
+    .imageColumn img {
+        max-width: 100%;
+        height: auto;
+    }
+    #filmdirector1 {
+        width: 176.07px;
+        margin: 138px 0px 0px 40px;
+    }
+    #filmdirector2 {
+        width: 181.86px;
+        margin: 330px 0px 0px 50px;
+    }
+
+/** Нижняя плашка **/
+
+    .bottomColumn {
+    max-width: 737px;
+    margin: auto;
+    display: flex;
+    padding: 50px 0px 100px 60px;
+    }
+    .bottomColumn div {
+    width: 14%;
+    padding: 30px 0px 0px 50px;
+    }
+
+    .item1 p:first-child {
+        margin: 0px;
+        font-size: 15px;
+        font-weight: bold;
+    }
+    .item2 p:first-child {
+        margin: 0px;
+        font-size: 15px;
+        font-weight: bold;
+    }
+    .item3 p:first-child {
+        margin: 0px;
+        font-size: 15px;
+        font-weight: bold;
+    }
+    .item1 p:last-child {
+        margin-top: 10px;
+        font-size: 11px;
+        line-height: 130%;
+    }
+    .item2 p:last-child {
+        margin-top: 10px;
+        font-size: 11px;
+        line-height: 130%;
+    }
+    .item3 p:last-child {
+        margin-top: 10px;
+        font-size: 11px;
+        line-height: 130%;
+    }
+        
+    #filmdirector3 {
+        width: 134.37px;
+    }
+
+/*!!!Версия Никита!!!*/
+
+/*Формат Занятий*/
+
+    .container2 {
+        max-width: 737px;
+        }
+
+    .nameoption {
+        margin-top: 0px;
+        font-weight: 700;
+        font-size: 15px;
+        padding:0px;
+        }
+    .descriptionoption {
+        font-weight: 400;
+        font-size: 11px;
+        margin-bottom:100px;
+        }
+    .boxoptions-one {
+        margin-right: 46px;
+        }
+    .boxoptions-one .descriptionoption {
+        width: 153px;
+        }
+    .boxoptions-two {
+        margin-right: 50.87px;
+        }
+    .boxoptions-two .descriptionoption {
+        width: 172px;
+        }
+    .boxoptions-three .descriptionoption {
+        width: 141.9px; 
+    }
+
+/*Что Узнаем*/
+    
+    .list {
+        margin: 28px 0px 143px 16px;
+    }
+    .list li {
+        font-size: 14px;
+        width: 383.41px;
+    }
+   
+/*Программа курса*/
+
+    .program {
+        margin-top: 39px;
+    }
+    .boxprogram {
+        width: 231.09px;
+        height: 189.97px;
+        border: 0px;
+        border-radius: 17.38px;
+        filter: drop-shadow(0.58px 0.58px 8.69px rgba(0, 0, 0, 0.25));
+        margin: 23.75px 21.43px;
+        background-color: white;
+    }
+    .nameprogram {
+        font-size: 17px;
+        margin: 6.37px 8.11px 18.53px 11.58px;
+    }
+    .descriptionprogram {
+        font-size: 14px;
+        margin: 18.53px 8.69px 13.32px 11px;
+    }
+    .program>:last-child>.nameprogram {
+        margin: 9.27px 8.11px 0.58px 11.58px;
+    }
+    .program>:last-child>.descriptionprogram {
+        margin: 0.58px 8.69px 13.32px 11px;
+    }
+    .program img {
+        width: 100%;
+        height: 92.67px;
+    }
+    .program {
+        width: 834px;
+    }
+
+
+/**Мобильная версия**/
+
+@media (max-width: 991px) {
+    body {
+    font-size: 10px;
+    }
+    .container {
+        max-width: 375px;
+        
+    }
+
+/** Топ меню **/
+
+    #logo {
+        max-width: 52.19px;
+        width: 100%;
+        height: auto;
+        margin: 36px 0px 0px 18px;
+    }
+    .shortinfo {
+        margin: 37.6px 0px 0px 18px;
+        width: 130%;
+    }
+    .shortinfo img {
+        width: 10.25px;
+        height: 9.79px;
+        padding: 0px 3.73px 4px 0px;
+    }
+    .shortinfo p {
+        padding-right: 15px;
+    }
+    
+    h1 {
+        font-size: 37px;
+        font-weight: bold;
+        margin: 7.32px 0px 0px 18px;
+        width: 160%;
+    }
+    #textUnderH1 {
+        margin: 20px 0px 0px 18px;
+        width: 110%;
+    }
+
+/** Cиняя рамка**/  
+
+    .blueText {
+        font-size: 11px;
+        margin: 213.71px 0px 75px 18px;
+        width: 217.10px;
+    }
+    .blueText p {
+        padding: 11.15px 15.65px 0px 15.08px;
+    }
+    #author {
+        font-size: 10px;
+        padding: 0px 0px 10px 0px;
+        margin: -5px 0px 0px 110px;
+        width: 100px;
+    }
+
+/** Текст H2 **/
+
+    h2 {
+        font-size: 26px;
+        margin: 0px 0px 0px 18px;
+        }
+    #paragraph1 {
+        font-size: 12px;
+        margin: 25px 0px 0px 18px;
+        width: 140%
+        }
+    #paragraph2 {
+        font-size: 12px;
+        margin: 25px 0px 0px 18px;
+        width: 140%
+    }
+
+/** Боковые картинки **/
+
+    .imageColumn img {
+        max-width: 100%;
+        height: auto;
+    }
+    #filmdirector1 {
+        width: 141px;
+        margin: 250px 0px 0px -35px;
+    }
+    #filmdirector2 {
+        width: 170.55px;
+        margin: 510px 0px 0px -125px;
+    }
+
+/** Нижняя плашка **/ 
+
+    .bottomColumn {
+        max-width: 375px;
+        margin: auto;
+        display: block;
+        padding: 0px 0px 0px 46px;
+    }
+    .bottomColumn div {
+        width: 14%;
+        padding: 0px 0px 0px 0px;
+    }
+    .item1 p:first-child {
+        margin: 0px;
+        font-size: 12px;
+        font-weight: bold;
+        width:100px;
+    }
+    .item2 p:first-child {
+        margin: 0px;
+        font-size: 12px;
+        font-weight: bold;
+    }
+    .item3 p:first-child {
+        margin: 0px;
+        font-size: 12px;
+        font-weight: bold;
+    }
+    .item1 p:last-child {
+        margin-top: 1px;
+        font-size: 10px;
+        line-height: 130%;
+        width: 80px;
+    }
+    .item2 p:last-child {
+        margin-top: 1px;
+        font-size: 10px;
+        line-height: 130%;
+        width: 100px;
+    }
+    .item3 p:last-child {
+        margin-top: 1px;
+        font-size: 10px;
+        line-height: 130%;
+        width: 80px;
+        margin-bottom: 76px;
+    }
+    #filmdirector3 {
+        display: none;
+    }
+    .item1 {
+        margin-top: 64.7px;
+        display: block;
+    }
+    .item2 {
+        margin-top:-51px;
+        margin-left: 120px;
+        display: block;
+    }
+    .item3 {
+        margin-top:30px;
+    }
+    
+/* !!!Мобильная версия Никита!!! */
+
+/*Формат Занятий*/
+
+    .container2 {
+        max-width: 375px;
+        }
+    .optionslearning {
+        margin-left: 18px;
+        margin-top: 36.66px;
+        display: flex;
+        flex-direction: column;
+    }   
+    .nameoption {
+        font-size: 12px;
+    }
+    .descriptionoption {
+        font-weight: 400;
+        font-size: 10px;
+        margin-bottom: 33px;
+        margin-top: 3px;
+
+    }
+    
+/*Что Узнаем*/
+    .list {
+        margin-left: 0px;
+        margin-bottom: 85px;
+    }   
+    .list li {
+        font-size: 12px;
+        width: 299px;
+    }
+
+/*Программа курса*/
+    .program {
+        width: 375px;
+        display: flex;
+        flex-direction: column;
+        margin-left: 95px;
+        margin-top: 35px;
+    }
+    .boxprogram {
+        width: 185.92px;
+        height: 152.84px;
+        border-radius: 13.98px;
+        filter: drop-shadow(0.47px 0.47px 6.99px rgba(0, 0, 0, 0.25));
+        margin: 0;
+        margin-top: 35.66px;
+    }
+    .nameprogram {
+        font-weight: 700;
+        font-size: 14px;
+        margin: 5.13px 6.52px 14.91px 9.32px;
+    }
+    .descriptionprogram {
+        font-size: 12px;
+        margin: 14.91px 6.99px 10.72px 8.85px;
+    }
+    .program>:last-child>.nameprogram {
+        margin: 7.46px 6.52px 0.47px 9.32px;
+    }
+    .program>:last-child>.descriptionprogram {
+        margin: 0.47px 6.99px 10.72px 8.85px;
+    }
+    .program img {
+        width: 185.92px;
+    }
+}
