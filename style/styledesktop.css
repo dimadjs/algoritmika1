@@ -1,133 +1,166 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
 body {
     font-family: "Roboto";
     font-size: 20px;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container {
+    max-width: 1270px;
+    margin: auto;
+    display: flex;
+}
 
+/** Текстовая колонка **/
+
+.textColumn {
+    width: 60.708%;
 }
-.firstsection {
-    width: 1440px;
-    margin: auto;
-}
-.top {
-    width: 82%;
-    margin: auto;
-}
+
+/** Топ меню **/
+
 #logo {
-    width: 112px;
-    margin-top: 13px;
+    max-width: 112px;
+    width: 100%;
+    height: auto;
+    margin: 21px 0px 0px 36px;
 }
 .shortinfo {
-    width: 53%;
     display: flex;
-    margin-top: 74px;
+    margin: 71px 0px 0px 36px;
+    align-items: center;
 }
-.shortinfo .icon {
-    width: 30%;
-    margin-left: -2px;
-    display: flex;
-    padding: 0px;
+.shortinfo img {
+    width: 22px;
+    height: 21px;
+    padding: 0px 8px 7px 0px;
 }
-.shortinfo .icon div {
-    padding-top: 17px;
-    padding-right: 10px;
+.shortinfo p {
+    padding: 0px 25px 0px 0px;
+    margin: 0px;
 }
-.shortinfo .icon:nth-child(2) {
-    width: 26.5%;  
-}
-.main-top {
-    width:82%;
-    margin: auto;
-    display: flex;
-}
+
+/** Главный текст **/
+
 h1 {
     font-family: Roboto Slab;
     font-size: 80px;
     font-weight: 700;
-    margin-top: 20px;
-    width: 50%;
-    margin-bottom: 0px;
     line-height: 101.38%;
+    margin: 23px 0px 0px 36px;
 }
-.maintext p {
-    font-size: 20px;
-    font-weight: 400;
-    line-height: 30px;
-    width: 36%;
+#textUnderH1 {
+    margin: 24px 0px 0px 36px;
+    width: 54%;
 }
-#blueborder {
+
+/** Cиняя рамка **/
+
+.blueText {
     font-family: Roboto Slab;
-    font-style: normal;
-    font-weight: normal;
     font-size: 25px;
     line-height: 130%;
     background: #1E4681;
     border-radius: 5px;
-    padding: 19.6px 27.02px 50.74px 26.03px;
     color: white;
-    margin-left: 290px;
-    margin-top: 189px;
+    width: 61.0%;
+    margin: 177px 0px 0px 332px;
+}
+.blueText p {
+    padding: 19.26px 27.02px 0px 26.03px;
 }
 #author {
-    color: white;
-    margin-left: 560px;
-    margin-top: -70px;
+    font-family: Roboto;
+    font-size: 20px;
+    padding:0px 0px 20px 0px;
+    margin: -20px 0px 0px 270px;
 }
-#mainp1  {
-    font-size: 24px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 36px;
-    width: 57%;
-}
-#mainp2 {
-    font-size: 24px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 36px;
-    width: 57%;
-}
+
+/** Текст H2 **/
+
 h2 {
-    margin-top: 210px;
     font-family: Roboto Slab;
-    font-style: normal;
     font-weight: bold;
     font-size: 55px;
     line-height: 101.38%;
+    margin: 173px 0px 0px 36px;
 }
-#filmdirector1 {
-    position: absolute;
-    margin-left: -415px;
-    margin-top: -5px;
+#paragraph1 {
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 36px;
+    width: 86%;
+    margin: 50px 0px 0px 36px;
 }
-#filmdirector2 {
-    position: absolute;
-    margin-top: 1000px;
-    margin-left: -300px;
-}
-#filmdirector3 {
-    position: absolute;
-    margin-top: -60px;
-    margin-left: -290px;
-}
-.main-bottom {
-    display: flex;
-    margin-top: 150px;
-    margin-left: 410px;
+#paragraph2 {
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 36px;
+    width: 86%;
+    margin: 30px 0px 0px 36px;
 }
 
-.main-bottom div {
-    width: 170px;
-    padding-left: 90px;
+/** Боковые картинки **/
+
+.imgColumn {
+    width: 39.3%;
 }
-.item p:first-child {
+.imageColumn img {
+    max-width: 100%;
+    height: auto;
+}
+#filmdirector1 {
+    margin: 190px 0px 0px 40px;
+}
+#filmdirector2 {
+    margin: 570px 0px 0px 70px;
+}
+
+/** Нижняя плашка **/
+
+.bottomColumn {
+    max-width: 1270px;
+    margin: auto;
+    display: flex;
+    padding: 94px 0px 0px 80px;
+}
+.bottomColumn div {
+    width: 13%;
+    padding: 70px 0px 0px 90px;
+}
+.item1 p:first-child {
     margin: 0px;
     font-size: 25px;
     font-weight: bold;
 }
-.item p:last-child {
+.item2 p:first-child {
+    margin: 0px;
+    font-size: 25px;
+    font-weight: bold;
+}
+.item3 p:first-child {
+    margin: 0px;
+    font-size: 25px;
+    font-weight: bold;
+}
+.item1 p:last-child {
     margin-top: 10px;
     font-size: 18px;
     line-height: 130%;
 }
+.item2 p:last-child {
+    margin-top: 10px;
+    font-size: 18px;
+    line-height: 130%;
+}
+.item3 p:last-child {
+    margin-top: 10px;
+    font-size: 18px;
+    line-height: 130%;
+}
+
+
+
