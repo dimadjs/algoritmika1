@@ -1,21 +1,22 @@
+body {
+padding: 0;
+margin: 0;
+}
+
 main {
-    width: 1440px;
+    max-width: 1280px;
     margin: auto;
 }
+
 h2 {
     font-family: 'Roboto Slab', serif;
-    margin-left: 8.40%;
-    font-size: 55px;
+    font-size: 3.43rem;
 }
 
 .optionslearning {
     font-family: 'Roboto', sans-serif;
-    margin-left: 121px;
-    margin-top: 89px;
     display: flex;
-    margin-right: 344px;
-    margin-bottom: 179px;
-}
+   }
 
 .nameoption {
     font-weight: 700;
@@ -26,6 +27,7 @@ h2 {
 .descriptionoption {
     font-weight: 400;
     font-size: 18px;
+    margin-bottom: 179px;
 }
 
 
@@ -47,8 +49,7 @@ h2 {
 
 
 .list {
-    padding-inline-start: 0px;
-    margin-left: 138px;
+    /*padding-inline-start: 0px;*/
     margin-bottom: 248px;
 }
 .list li {
@@ -62,18 +63,42 @@ h2 {
     flex-wrap: wrap;
     font-family: 'Roboto', sans-serif;
     width: 100%;
+    height: 100%px;
+    margin-top: 95px;
+}
+
+.program :nth-child(1) {
+    margin-right: 2.89%;
+}
+.program :nth-child(2) {
+    margin-right: 2.89%;
+}
+.program :nth-child(4) {
+    margin-right: 2.89%;
+}
+.program :nth-child(5) {
+    margin-right: 2.89%;
+}
+.program :nth-child(7) {
+    margin-right: 2.89%;
+}
+
+.boxprogram img {
+    width: 100%;
+    height: 160px;
 }
 
 .boxprogram {
-    width: 399px;
-    height: 328px;
+    width: 31.171%;
+    height: 25,625px;
+    margin-bottom: 41px;
     border: 0px;
     border-radius: 30px;
     filter: drop-shadow(1px 1px 15px rgba(0, 0, 0, 0.25));
-    margin: 41px 37px;
     background-color: white;
- 
-}
+    box-sizing: border-box;
+
+ }
 
 .nameprogram {
     font-family: 'Roboto', sans-serif;
