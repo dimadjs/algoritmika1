@@ -212,15 +212,13 @@
         width: 834px;
     }
 
-<<<<<<< HEAD
 
-=======
     /*футер*/
 
     .greysection {
         background: #EFEFEF;
-        height: 451.75px;
-        padding-top: 143px;
+        height: 351.75px;
+        padding-top: 100px;
     }
     .contentgrey {
         margin: auto;
@@ -230,16 +228,40 @@
         flex-direction: column;
         justify-content: center;
     }
+
+    .contentgrey h2 {
+        padding-bottom:10px;
+    }
     .feedback p{
         font-size: 12px;
+        width: 405.42px;
+        margin-left: 0px;
+        line-height: 150%;
+        margin-top:-10px;
+        margin-bottom:0px;
+    }
+    .person {
+        margin-top: 10px;
+        
     }
     .person>img {
+        margin-top:10px;
         width: 110px;
+        margin-bottom: 10px;
     }
     .name img {
         width: 18.53px;
     }
-
+    .name p {
+        font-size: 17px;
+        font-weight: bold;
+        margin-bottom:12px;
+        padding-top:15px;
+    }
+    .greensection {
+        height: 451px;
+        padding-top:0px;
+    }
     .contentgreen {
         max-width: 737px;
         height: 451px;
@@ -282,17 +304,27 @@
     }
     .leftcolbot>div>img {
         width: 66px;
+        margin-bottom:15px;
     } 
     .soc {
         width: 17px;
     }
-    .rightcolbot img {
-        width: 15px;
-        height: 15px;
+
+    .leftcolbot p {
+        margin-top: 100px;
+    }
+    }
+    #phone1 {
+        width: 15.64px;
+        height: 15.64px;
     }
 
-}
->>>>>>> dima
+    #convert1 {
+        width: 15.64px;
+        height: 10.43px;
+    }
+
+
 /**Мобильная версия**/
 
 @media (max-width: 991px) {
@@ -487,8 +519,8 @@
         width: 375px;
         display: flex;
         flex-direction: column;
-        margin-left: 95px;
-        margin-top: 35px;
+        align-items: center;
+        margin-top: 15px;
     }
     .boxprogram {
         width: 185.92px;
@@ -497,6 +529,7 @@
         filter: drop-shadow(0.47px 0.47px 6.99px rgba(0, 0, 0, 0.25));
         margin: 0;
         margin-top: 35.66px;
+    }
     }
     .nameprogram {
         font-weight: 700;
@@ -514,29 +547,49 @@
         margin: 0.47px 6.99px 10.72px 8.85px;
     }
     .program img {
-        width: 185.92px;
+        width: 100%;
+        height: auto;
     }
-<<<<<<< HEAD
-=======
+
+    .boxprogram {
+       margin: 12px;
+    }
     /*футер*/
 
     .greysection {
         background: #EFEFEF;
-        height: 423px;
+        height: 453px;
+        box-sizing: border-box;
     }
     .contentgrey {
         max-width: 375px;
+        
     }
+    .greysection p {
+        width: 257px;
+    }
+
+    .name {
+        margin-left: 5px;
+    }
+    .name p {
+        font-size:14px;
+    }
+    .name img {
+        width:14px;
+    }
+
     .feedback {
         width: 82%;
-        height: 451px;
+        height: 363px;
         padding: 18px 21px 21px 21px;
         border: 0px;
         border-radius: 30px;
         filter: drop-shadow(1px 1px 20px rgba(0, 0, 0, 0.25));
         background-color: #FFFFFF;
         box-sizing: border-box;
-        margin-top: 34px;
+        margin-top: 24px;
+
     }
     .feedback>p {
         font-size: 10px;
@@ -545,11 +598,15 @@
     .greensection {
         background: #9DC9C8;
         height: 363px;
-        padding-top: 62px;
+        padding-top: 0px;
         padding-bottom: 72px;
     }
     .contentgreen {
         max-width: 375px;
+    }
+
+    .contentgreen h2 {
+        max-width: 224px;
     }
     .blackbottom {
         background: black;
@@ -561,7 +618,6 @@
         margin: auto;
         max-width: 375px;
         display: flex;
-        flex-direction: column;
     }
     .leftcolbot {
         height: 251px;
@@ -569,12 +625,21 @@
         flex-direction: column;
         justify-content: space-between;
     }
-
-    /*??????????????*/
     .rightcolbot {
-        
-     
+        height: 50px;
+        position: relative;
+        top:125px;
+        right: 175px;
+        width: 200px;
     }
-    
->>>>>>> dima
-}
+
+    .rightcolbot p {
+        margin-top: 5px;
+        margin-bottom:0px;
+    }
+
+    #phone1, #convert1  {
+        margin-top: 5px;
+        margin-right:10px;
+    } 
+

@@ -1,10 +1,5 @@
-<<<<<<< HEAD
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&display=swap');
-=======
-/*@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&display=swap');*/
->>>>>>> dima
 
 body {
     font-family: "Roboto";
@@ -231,11 +226,8 @@ h2 {
     font-family: 'Roboto', sans-serif;
     width: 100%;
     height: 100%px;
-    margin-top: 95px;
-<<<<<<< HEAD
-=======
-    padding-bottom: 121px;
->>>>>>> dima
+    margin-top: 136px;
+    margin-bottom: 121px;
 }
 .program :nth-child(1) {
     margin-right: 2.89%;
@@ -284,15 +276,12 @@ h2 {
 .program>:last-child>.descriptionprogram {
     margin: 1px 15px 23px 19px;
 }
-<<<<<<< HEAD
-
-
-=======
 /*Серая секция*/
 .greysection {
     background: #EFEFEF;
     height: 780px;
     padding-top: 91px;
+
 }
 
 .contentgrey {
@@ -303,8 +292,12 @@ h2 {
     justify-content: center;
 }
 
+.contentgrey h2 {
+    margin-left: 0px;
+}
+
 .feedback {
-    width: 55%;
+    width: 62.5%;
     height: 451px;
     padding: 40px 46px 0px 26px;
     border: 0px;
@@ -318,11 +311,15 @@ h2 {
 .person {
     display: flex;
     align-items: center;
+    margin-top: 20px;
 }
 
 .feedback>p {
     font-size: 20px;
-    margin: 6px 46px 10px 45px;
+    margin: 6px 46px 10px 30px;
+    width: 700px;
+    line-height: 150%;
+
 }
 .name>p {
     font-size: 30px;
@@ -331,11 +328,18 @@ h2 {
 .contentgrey>h2 {
     padding-bottom: 35px;
 }
+
+.name {
+    margin-left: 30px;
+    margin-top:0px;
+}
+
 /*Зеленая секция*/
 .greensection {
     background: #9DC9C8;
-    height: 780px;
+    height: 680px;
     padding-top: 179px;
+
 }
 
 .contentgreen {
@@ -372,6 +376,13 @@ h2 {
 
 #description div :first-child {
     font-size: 25px;
+    margin-bottom:9px;
+}
+
+#description div :last-child {
+    line-height: 101.38%;
+    margin-top:0px;
+
 }
 
 /*подвал с черным фоном*/
@@ -413,9 +424,13 @@ h2 {
     display: flex;
     align-items: center;
 }
-.rightcolbot img {
-    width: 22px;
-    height: 22px;
+#convert1 {
+    width: 27px;
+    height: 18px;
     margin-right: 22px;
 }
->>>>>>> dima
+#phone1 {
+    width: 27px;
+    height: 27px;
+    margin-right: 22px;
+}
