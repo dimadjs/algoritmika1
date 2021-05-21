@@ -212,7 +212,87 @@
         width: 834px;
     }
 
+<<<<<<< HEAD
 
+=======
+    /*футер*/
+
+    .greysection {
+        background: #EFEFEF;
+        height: 451.75px;
+        padding-top: 143px;
+    }
+    .contentgrey {
+        margin: auto;
+        max-width: 737px;
+        height: 261.2px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .feedback p{
+        font-size: 12px;
+    }
+    .person>img {
+        width: 110px;
+    }
+    .name img {
+        width: 18.53px;
+    }
+
+    .contentgreen {
+        max-width: 737px;
+        height: 451px;
+    }
+    #price {
+        font-size: 14px;       
+    }
+    #number {
+        font-size: 46px;
+    }
+    #description {
+        max-width: 382px;
+    }
+    #description div {
+        width: 170px;
+        font-size: 10px;
+    }
+    #description div :first-child {
+        font-size: 14px;
+    }
+
+    .blackbottom {
+        height: 225.88px;
+        padding-top: 28px;
+        color: #FFFFFF;
+        padding-bottom: 13.32px;
+    }
+    .contenblack {
+        margin: auto;
+        max-width: 737px;
+        display: flex;
+        justify-content: space-between;
+    }
+    .leftcolbot {
+        height: 122px;
+    }
+
+    .leftcolbot p {
+        font-size: 10px;
+    }
+    .leftcolbot>div>img {
+        width: 66px;
+    } 
+    .soc {
+        width: 17px;
+    }
+    .rightcolbot img {
+        width: 15px;
+        height: 15px;
+    }
+
+}
+>>>>>>> dima
 /**Мобильная версия**/
 
 @media (max-width: 991px) {
@@ -436,4 +516,65 @@
     .program img {
         width: 185.92px;
     }
+<<<<<<< HEAD
+=======
+    /*футер*/
+
+    .greysection {
+        background: #EFEFEF;
+        height: 423px;
+    }
+    .contentgrey {
+        max-width: 375px;
+    }
+    .feedback {
+        width: 82%;
+        height: 451px;
+        padding: 18px 21px 21px 21px;
+        border: 0px;
+        border-radius: 30px;
+        filter: drop-shadow(1px 1px 20px rgba(0, 0, 0, 0.25));
+        background-color: #FFFFFF;
+        box-sizing: border-box;
+        margin-top: 34px;
+    }
+    .feedback>p {
+        font-size: 10px;
+        margin: 0;
+    }
+    .greensection {
+        background: #9DC9C8;
+        height: 363px;
+        padding-top: 62px;
+        padding-bottom: 72px;
+    }
+    .contentgreen {
+        max-width: 375px;
+    }
+    .blackbottom {
+        background: black;
+        height: 251px;
+        padding-top: 23px;
+        padding-bottom: 10px;
+    }
+    .contenblack {
+        margin: auto;
+        max-width: 375px;
+        display: flex;
+        flex-direction: column;
+    }
+    .leftcolbot {
+        height: 251px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    /*??????????????*/
+    .rightcolbot {
+        
+     
+    }
+    
+>>>>>>> dima
 }
