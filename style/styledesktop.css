@@ -22,6 +22,11 @@ body {
 
 /** Топ меню **/
 
+header {
+    max-width: 1270px;
+    margin: auto;
+}
+
 #logo {
     max-width: 112px;
     width: 100%;
@@ -189,20 +194,25 @@ h2 {
     font-size: 18px;
     margin-bottom: 187px;
 }
+
 .boxoptions-one {
-    margin-right: 122px;
+    margin-right: -105px;
 }
 .boxoptions-one .descriptionoption {
-    width: 223px;
+    width: 45%;
 }
 .boxoptions-two {
-    margin-right: 113px;
+    margin-right: -105px;
+}
+.boxoptions-three {
+    margin-left: -100px;
 }
 .boxoptions-two .descriptionoption {
-    width: 271px;
+    width: 45%;
 }
 .boxoptions-three .descriptionoption {
-    width: 271px;
+    width: 79%;
+    
 }
 
 /** Что узнаем */
@@ -225,7 +235,7 @@ h2 {
     flex-wrap: wrap;
     font-family: 'Roboto', sans-serif;
     width: 100%;
-    height: 100%px;
+    height: 100%;
     margin-top: 136px;
     margin-bottom: 121px;
 }
@@ -250,7 +260,6 @@ h2 {
 }
 .boxprogram {
     width: 31.171%;
-    height: 25,625px;
     margin-bottom: 41px;
     border: 0px;
     border-radius: 30px;
@@ -284,7 +293,7 @@ h2 {
 
 }
 
-.contentgrey {
+.contentReview {
     margin: auto;
     max-width: 1270px;
     display: flex;
@@ -292,7 +301,7 @@ h2 {
     justify-content: center;
 }
 
-.contentgrey h2 {
+.contentReview h2 {
     margin-left: 0px;
 }
 
@@ -325,7 +334,7 @@ h2 {
     font-size: 30px;
     font-family: Roboto Slab;
 }
-.contentgrey>h2 {
+.contentReview>h2 {
     padding-bottom: 35px;
 }
 

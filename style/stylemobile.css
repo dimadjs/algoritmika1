@@ -8,6 +8,10 @@
         max-width: 737px;
     }
 
+    header {
+        max-width: 737px;
+    }
+
 /** Топ меню **/
 
     #logo {
@@ -151,19 +155,23 @@
         margin-bottom:100px;
         }
     .boxoptions-one {
-        margin-right: 46px;
+        margin-right: -90px;
         }
     .boxoptions-one .descriptionoption {
-        width: 153px;
+        width: 48%;
         }
     .boxoptions-two {
-        margin-right: 50.87px;
+        margin-right: 0px;
         }
     .boxoptions-two .descriptionoption {
-        width: 172px;
+        width: 60%;
         }
     .boxoptions-three .descriptionoption {
-        width: 141.9px; 
+        width: 70%;
+    }
+
+    .boxoptions-three {
+        margin-left:-100px;
     }
 
 /*Что Узнаем*/
@@ -220,7 +228,7 @@
         height: 351.75px;
         padding-top: 100px;
     }
-    .contentgrey {
+    .contentReview {
         margin: auto;
         max-width: 737px;
         height: 261.2px;
@@ -229,7 +237,7 @@
         justify-content: center;
     }
 
-    .contentgrey h2 {
+    .contentReview h2 {
         padding-bottom:10px;
     }
     .feedback p{
@@ -333,7 +341,10 @@
     }
     .container {
         max-width: 375px;
-        
+    }
+
+    header {
+        max-width: 375px;
     }
 
 /** Топ меню **/
@@ -410,7 +421,7 @@
     }
     #filmdirector1 {
         width: 141px;
-        margin: 250px 0px 0px -35px;
+        margin: 180px 0px 0px -35px;
     }
     #filmdirector2 {
         width: 170.55px;
@@ -503,6 +514,16 @@
         margin-top: 3px;
 
     }
+    .boxoptions-two {
+        margin:0px;
+        width:77%;
+        
+    }
+    .boxoptions-three {
+        width:70%;
+        margin:0px;
+        
+    }
     
 /*Что Узнаем*/
     .list {
@@ -560,7 +581,7 @@
         height: 453px;
         box-sizing: border-box;
     }
-    .contentgrey {
+    .contentReview {
         max-width: 375px;
         
     }
